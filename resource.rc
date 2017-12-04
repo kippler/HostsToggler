@@ -1,0 +1,123 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_ACCEL ACCELERATORS 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON0               ICON                    "ICON_0.ico"
+IDI_ICON1               ICON                    "ICON_1.ico"
+IDI_ICON2               ICON                    "ICON_2.ico"
+IDI_ICON3               ICON                    "ICON_3.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_TRAY MENU 
+BEGIN
+    POPUP "TRAY MENU"
+    BEGIN
+        MENUITEM "프로그램 홈페이지",                   IDM_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "notepad hosts",               IDM_NOTEPAD_HOSTS
+        MENUITEM "notepad hosts.0",             IDM_NOTEPAD_HOSTS_0
+        MENUITEM "notepad hosts.1",             IDM_NOTEPAD_HOSTS_1
+        MENUITEM "notepad hosts.2",             IDM_NOTEPAD_HOSTS_2
+        MENUITEM "notepad hosts.3",             IDM_NOTEPAD_HOSTS_3
+        MENUITEM SEPARATOR
+        MENUITEM "hosts.0",                     IDM_HOSTS_0
+        MENUITEM "hosts.1",                     IDM_HOSTS_1
+        MENUITEM "hosts.2",                     IDM_HOSTS_2
+        MENUITEM "hosts.3",                     IDM_HOSTS_3
+        MENUITEM SEPARATOR
+        MENUITEM "폴더 열기",                       IDM_OPEN_FOLDER
+        MENUITEM "종료(&x)",                      IDM_EXIT
+    END
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

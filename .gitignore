@@ -1,0 +1,14 @@
+
+*.obj
+.vs/HostsToggler/v15/.suo
+*.log
+*.ilk
+*.pch
+*.pdb
+*.tlog
+*.res
+*.idb
+*.iobj
+*.ipdb
+Debug/HostsToggler.exe
+*.user
